@@ -1,0 +1,50 @@
+body {
+    background-color: lightyellow; 
+    background-image: url(https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif); 
+    background-size: 5%; 
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 1in; 
+    color: darkblue; 
+    background-image: url(https://www.brissa.by/wp-content/uploads/2021/01/icicle.jpg); 
+    background-size: cover; 
+}
+
+div {
+    width: 500px; 
+    height: 500px; 
+    margin: 30px; 
+}
+
+#d1 {
+    background-image: url(https://www.volyn24.com/img/modules/news/c/03/6c8506e69e538bb77d084d70a322a03c/original-photo.jpg); 
+    width: 400px; 
+    height: 300px;
+    border: ridge 30px darkgoldenrod; 
+}
+
+#d2 {
+    background-image: linear-gradient(rgba(0, 255, 0, 0.5), rgba(255, 0, 0, 0.5)), url(https://upload.wikimedia.org/wikipedia/commons/7/79/%D0%9A%D0%B0%D1%80%D1%82%D0%B0_%D0%9F%D0%BD._%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0.png); /* Змінено посилання на зображення та кольори градієнту */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 400px; 
+    width: 600px; 
+    border: solid 18px goldenrod; 
+    border-image: linear-gradient(lightblue, yellow) 30;
+}
+
+#img1 {
+    width: 35%; 
+    margin: auto; 
+    display: block; 
+}
+
+#img2 {
+    width: 50%;
+    border-radius: 50%; 
+    box-shadow: 5px 5px 20px gold, 0 0 10px gray;
+}
